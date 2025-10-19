@@ -1,6 +1,3 @@
-
-
-
 def add(*input):
     
     sum = 0
@@ -16,6 +13,3 @@ def subtract(*input):
         sum += element
     
     return sum
-
-
-print(add(1, 2, 3))
