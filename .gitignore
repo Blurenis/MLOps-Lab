@@ -1,0 +1,10 @@
+venv/
+ __pycache__
+
+# Fichiers temporaires
+*.tmp
+*.log
+*.swp
+*~
+.DS_Store
+Thumbs.db
