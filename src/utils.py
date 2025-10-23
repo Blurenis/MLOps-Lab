@@ -2,7 +2,6 @@ def multiply(*input):
     product = 1
     for element in input:
         product *= element
-
     return product
 
 
