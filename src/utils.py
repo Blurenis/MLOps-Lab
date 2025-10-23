@@ -17,6 +17,8 @@ def subtract(*values):
 def multiply(*values):
     product = 1
     for element in values:
+        if not isinstance(element, (int, float)):
+            raise TypeError("multiply() accepte seulement int ou float")
         product *= element
     return product
 
