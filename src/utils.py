@@ -2,6 +2,9 @@ def add(*values):
     total = 0
     for element in values:
         total += element
+    print("grergergerger")
+    print("grergergerger")
+    print("grergergerger")
     return total
 
 
