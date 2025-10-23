@@ -10,6 +10,6 @@ def subtract(*input):
     
     sum = 0
     for element in input:
-        sum += element
+        sum -= element
     
     return sum
