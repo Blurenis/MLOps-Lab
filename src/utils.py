@@ -14,6 +14,7 @@ def subtract(*values):
     result = values[0]
     for element in values[1:]:
         result -= element
+    print(result)
     return result
 
 
